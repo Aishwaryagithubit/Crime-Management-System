@@ -13,7 +13,7 @@ whenever sqlerror exit sql.sqlcode rollback
 -- supported by Oracle and can lead to unexpected application and/or instance
 -- behavior now or in the future.
 --
--- NOTE: Calls to apex_application_install override the defaults below.
+--  NOTE: Calls to apex_application_install override the defaults below.
 --
 --------------------------------------------------------------------------------
 begin
